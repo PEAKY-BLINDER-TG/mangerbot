@@ -50,12 +50,9 @@ And the following:
 
 DONATE_STRING = """ *🙋‍♂️Hello Bro or Sis*!
 
-*👨‍💻Editing* :- *@Mo_Tech_Group*
+мαιитαιиє∂ ву <b><i><a href="https://t.me/wasimfaris07">αͷϴͷϒϻϴῠs ᴹᴳ</a></i></b></b>
+</i>"""
 
-*😔Donation Link Coming Soon😔*
-
-*👉Clcik 👉 /donate*
-"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -152,8 +149,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="👨‍💼 Master", url="t.me/MRK_YT"),  InlineKeyboardButton(text="Help 🤔", url="https://t.me/{}?start=help".format(bot.username))],
-                     [InlineKeyboardButton(text="👥 Any Doubt", url="t.me/Mo_Tech_Group"), InlineKeyboardButton(text="MT Updates🤖", url="t.me/Mo_Tech_YT")] ])),
+                    [[InlineKeyboardButton(text="👨‍💼 Master", url="t.me/wasimfaris07"),  InlineKeyboardButton(text="Help 🤔", url="https://t.me/{}?start=help".format(bot.username))],
+                     [InlineKeyboardButton(text="⚠️join", url="t.me/newmoviesbn"), InlineKeyboardButton(text="📽️channel", url="t.me/https://t.me/joinchat/Tp3zziniDy_WsTxv")] ])),
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
