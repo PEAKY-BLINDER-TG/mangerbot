@@ -150,7 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="👨‍💼 Master", url="t.me/wasimfaris07"),  InlineKeyboardButton(text="Help 🤔", url="https://t.me/{}?start=help".format(bot.username))],
-                     [InlineKeyboardButton(text="⚠️join", url="t.me/newmoviesbn"), InlineKeyboardButton(text="📽️channel", url="t.me/https://t.me/joinchat/Tp3zziniDy_WsTxv")] ])),
+                     [InlineKeyboardButton(text="⚠️ join", url="t.me/newmoviesbn"), InlineKeyboardButton(text="📽️ channel", url="t.me/https://t.me/joinchat/Tp3zziniDy_WsTxv")] ])),
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
