@@ -23,7 +23,6 @@ START_IMG = "https://telegra.ph/file/5ced61d0da061dd952566.jpg"
 
 
 
-
 PM_START_TEXT = """
 
 *ഹായ് {}, എന്റെ പേര് {}!*
