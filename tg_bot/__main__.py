@@ -151,8 +151,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
         else:
             first_name = update.effective_user.first_name
-            update.effective_message.reply_text(
-                PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
+            update.effective_message.reply_photo(START_IMG,PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="👨‍💼 Master", url="t.me/wasimfaris07"),  InlineKeyboardButton(text="Help 🤔", url="https://t.me/{}?start=help".format(bot.username))],
