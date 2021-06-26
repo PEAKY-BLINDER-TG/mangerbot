@@ -49,7 +49,7 @@ And the following:
 
 DONATE_STRING = """ *🙋‍♂️Hello Bro or Sis*!
 
-мαιитαιиє∂ ву <b><i><a href="https://t.me/wasimfaris07">αͷϴͷϒϻϴῠs ᴹᴳ</a></i></b></b>
+мαιитαιиє∂ ву [αͷϴͷϒϻϴῠs ᴹᴳ 🇮🇳](https://t.me/wasimfaris07)
 </i>"""
 
 
