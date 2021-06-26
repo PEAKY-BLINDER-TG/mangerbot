@@ -145,8 +145,8 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(START_IMG,PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="👨‍💼 Master", url="t.me/wasimfaris07"),  InlineKeyboardButton(text="Help 🤔", url="https://t.me/{}?start=help".format(bot.username))],
-                     [InlineKeyboardButton(text="⚠️ join", url="t.me/newmoviesbn"), InlineKeyboardButton(text="📽️ channel", url="https://t.me/PRIMER_MOVIES_n")] ])),
+                    [[InlineKeyboardButton(text="👨‍💼 𝐦𝐚𝐬𝐭𝐞𝐫 ", url="t.me/wasimfaris07"),  InlineKeyboardButton(text="𝐡𝐞𝐥𝐩 🤔", url="https://t.me/{}?start=help".format(bot.username))],
+                     [InlineKeyboardButton(text="⚠️ 𝐣𝐨𝐢𝐧 ", url="t.me/newmoviesbn"), InlineKeyboardButton(text="📽️ 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 ", url="https://t.me/PRIMER_MOVIES_n")] ])),
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
